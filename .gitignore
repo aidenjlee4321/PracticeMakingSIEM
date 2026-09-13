@@ -1,0 +1,32 @@
+# ========================
+# macOS / System Files
+# ========================
+.DS_Store
+.~lock.*
+
+# ========================
+# C++ / Compiled Binaries
+# ========================
+*.o
+*.out
+*.exe
+*.dSYM/
+build/
+bin/
+
+# ========================
+# Python / Environment
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
+
+# ========================
+# Project Specific
+# ========================
+*.log           # Ignore the fake server logs we generate
+*.sock          # Ignore Unix socket files if created locally
+.vscode/        # Ignore local VS Code settings
